@@ -695,6 +695,7 @@ ul{
 }
 
 .carousel_container{
+    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1007,4 +1008,92 @@ ul{
     transform: translate(-50%, -50%);
     opacity: 1;
     visibility: visible;
+}
+
+
+.s9_img_button{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.s9_img_button a{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    text-decoration:none;
+    color: black;
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 40px; 
+    transition: .3s ease-in-out;
+}
+
+.s9_img_button i{
+    font-size: 12px;
+    border-radius: 40px; 
+    top: 50%;
+    left: 80%;
+    transform: translate(-70%, -50%);
+    position: absolute;
+    color: white;
+    transition: .3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.s9_img_button a:hover{
+    color: white;
+    background-color: #3E42B4;
+    padding: 15px 45px 15px 30px;
+}
+
+.s9_img_button a:hover i{
+    left: 90%;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.section10{
+    position: relative;
+    background-image: url( /CollectiveMindsLayout/assets/asset16.jpeg);
+    background-position: center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+
+
+.section10_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .8;
+}
+
+
+.sector10{
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.s10_textbox{
+    position: relative;
+    text-align: center;
+}
+
+
+.s10txt_title{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.s10txt_subtitle{
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
 }

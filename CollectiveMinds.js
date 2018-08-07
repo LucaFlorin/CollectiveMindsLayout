@@ -32,6 +32,15 @@ $(function() {
         }
 
 
+        if($(window).scrollTop() > 250) {
+            $('.header_socials').addClass('header_socials_scroll');
+        }
+        else{
+            $('.header_socials').removeClass('header_socials_scroll');
+        }
+
+
+
 
         
     });

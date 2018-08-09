@@ -9,6 +9,66 @@ ul{
 }
 
 
+
+.side_menu_icon{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    right:0;
+    transform: translate(0,-50%);
+}
+
+.line1{
+    width: 30px;
+    height: 5px;
+    background-color: white; 
+}
+
+.line2{
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+
+.line1_click{
+    transform: translateY(5px) rotate(-135deg);
+    transition: .5s ease-in-out;
+}
+
+
+.line2_click{
+    transform: translateY(-9px) rotate(-45deg);
+    transition: .5s ease-in-out;
+   
+}
+
+
+.side_menu_content{
+    width: 345px;
+    right: -345px;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    transition: all .6s ease-in-out;
+}
+
+
+.side_menu_content_show{
+    right: 0px;
+    background-color: rgba(255,255,255,0.2);
+    transition: all .6s ease-in-out;
+}
+
 .section1{
     background-image: url(/CollectiveMindsLayout/assets/asset2.jpeg);
     background-size: cover;

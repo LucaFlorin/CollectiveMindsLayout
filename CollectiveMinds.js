@@ -44,21 +44,6 @@ $(function() {
 
 
 
-    $('.side_menu_icon').click(function(){
-        $('.line1').toggleClass('line1_click');
-        $('.line2').toggleClass('line2_click');
-        $('.side_menu_content').toggleClass('side_menu_content_show')
-    });
-
-
-    $('a').click(function(){
-        $('.side_menu_content').removeClass('side_menu_content_show');
-        $('.line1').removeClass('line1_click');
-         $('.line1').removeClass('line2_click');
-    });
-
-
-
 
     $('.count').each(function () {
         $(this).prop('Counter',0).animate({
